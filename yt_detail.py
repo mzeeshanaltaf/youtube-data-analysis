@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 
 
 def api_connect():
-    api_id = 'AIzaSyAYaGIzAKpJ8Fhj45-S1t8eAODjyRj6RcE'
+    api_id = ''
     api_service_name = "youtube"
     api_version = "v3"
     youtube = build(api_service_name, api_version, developerKey=api_id)
